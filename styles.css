@@ -248,3 +248,97 @@ main{
     color: var(--warm-black);
     margin-bottom: 0;
 }
+
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 270px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--black);
+}
+
+.main-product-detail--batata-logo{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background: url(./assets/icons/Batatalogo.svg) center/cover no-repeat;
+    top: -10px;
+    left: calc(50% - 20px);
+}
+
+.product-detail--title{
+    width: 90%;
+    height: auto;
+    min-width: 270px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.product-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--just-white);
+}
+
+.product-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail--card{
+    width: 90%;
+    min-width: 248px;
+    max-width: 400px;
+    height: 180px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product--card-icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background: center/cover no-repeat;
+}
+
+.product--card-icon.clock-sign{
+    background-image: url(./assets/icons/clock.svg);
+}
+
+.product--card-icon.eye-sign{
+    background-image: url(./assets/icons/eye.svg);
+}
+
+.product--card-icon.dollar-sign{
+    background-image: url(./assets/icons/dollar-sign.svg);
+}
+
+.product--card-icon.check-sign{
+    background-image: url(./assets/icons/check-circle.svg);
+}
+
+.product--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white)
+}
+
+.product--card-body{
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    font-weight: 500px;
+    line-height: 1.8rem;
+    color: #808080;
+}
