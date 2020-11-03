@@ -391,8 +391,20 @@ main{
     color: #757575;
 }
 
+.plans-container--slider{
+    display: flex;
+    height: 326px;
+    width: 256px;
+    margin: 0 auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+}
+
 .plan-container--card{
     position: relative;
+    scroll-snap-align: center;
     width: 60%;
     min-width: 244px;
     max-width: 300px;
@@ -402,6 +414,11 @@ main{
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plan-container--card:nth-child(2){
+    margin-left: 35px; 
+    margin-right: 35px;
 }
 
 .recommended-banner{
